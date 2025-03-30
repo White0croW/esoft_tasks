@@ -1,7 +1,8 @@
 .house {
     position: relative;
     width: 300px;
-    margin: 50px auto;
+    margin: 0px auto;
+    margin-top: 150px;
 }
 
 .base {
@@ -10,18 +11,16 @@
     background-color: #f5d742;
     position: relative;
     border: 2px solid #333;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 
 .roof {
     width: 0;
     height: 0;
     border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
+    border-right: 154px solid transparent;
     border-bottom: 120px solid #8b4513;
     position: absolute;
-    bottom: 200px;
+    bottom: 203px;
     left: 0;
     z-index: 1;
 }
@@ -32,8 +31,8 @@
     background-color: #87ceeb;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 55%;
+    left: 30%;
     transform: translate(-50%, -50%);
     border: 3px solid #fff;
 }
@@ -43,7 +42,7 @@
     height: 60px;
     background-color: #654321;
     position: absolute;
-    top: -40px;
+    top: -95px;
     right: 50px;
     border: 2px solid #333;
 }
@@ -53,11 +52,10 @@
     height: 100px;
     background-color: #964b00;
     position: absolute;
-    bottom: 0;
-    left: 50%;
+    bottom: -2px;
+    left: 70%;
     transform: translateX(-50%);
     border: 2px solid #333;
-    border-radius: 5px 5px 0 0;
 }
 
 .doorknob {
